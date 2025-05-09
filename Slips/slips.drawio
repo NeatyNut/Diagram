@@ -16,10 +16,10 @@
         <mxCell id="2xSnnoKByyNW5rkiuB8Y-7" value="Main 인스턴스 생성 : slips" style="rounded=0;html=1;whiteSpace=wrap;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="90" y="40" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2xSnnoKByyNW5rkiuB8Y-8" value="Main Class init ~ Checker / RedisManager / ConfigParser / MetadataManager / UIManager / ProcessManager 인스턴스 생성&lt;div&gt;: self.(checker / redis_man / conf / metadata_man / ui_man / proc_man)&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="2xSnnoKByyNW5rkiuB8Y-8" value="Main Class init ~ Checker / RedisManager / ConfigParser / MetadataManager / UIManager / ProcessManager / ProfilersManager&lt;div&gt;: self.(checker / redis_man / conf / metadata_man / ui_man / proc_man / profilers_manager)&lt;/div&gt;" style="rounded=0;html=1;whiteSpace=wrap;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="90" y="69" width="520" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="2xSnnoKByyNW5rkiuB8Y-9" value="Main Class init ~ self.(version / args /&amp;nbsp;" style="rounded=0;html=1;whiteSpace=wrap;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="2xSnnoKByyNW5rkiuB8Y-9" value="Main Class init ~ self.(version / args / commit /&amp;nbsp;" style="rounded=0;html=1;whiteSpace=wrap;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="90" y="100" width="520" height="21" as="geometry" />
         </mxCell>
       </root>
