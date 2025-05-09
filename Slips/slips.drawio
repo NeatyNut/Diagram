@@ -28,11 +28,14 @@
         <mxCell id="mVT9n4huYzvR_0wZNbzy-2" value="slips.start()" style="rounded=0;html=1;whiteSpace=wrap;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="15" y="130" width="65" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mVT9n4huYzvR_0wZNbzy-3" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;proc_man.start_output_process -&amp;gt; Output 인스턴스 생성&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mVT9n4huYzvR_0wZNbzy-3" value="&lt;font size=&quot;1&quot;&gt;self.logger&amp;nbsp;: proc_man.start_output_process -&amp;gt; Output 인스턴스 생성&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="190" width="520" height="20" as="geometry" />
         </mxCell>
         <mxCell id="mVT9n4huYzvR_0wZNbzy-4" value="&lt;font size=&quot;1&quot;&gt;output class init ~ 결과 관련 설정값, path 설정&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="220" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mVT9n4huYzvR_0wZNbzy-5" value="&lt;font size=&quot;1&quot;&gt;self.printer:&amp;nbsp;Printer(self.logger, self.name)&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;self.logger를 옵저버로 등록(&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font size=&quot;1&quot;&gt;IObservable 인스턴스)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="250" width="520" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
